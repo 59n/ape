@@ -1,0 +1,88 @@
+body{
+	color:#fff;
+	background:#17181c;
+	font:300 1em 'Fira Sans',sans-serif;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	text-align:center;
+	min-height:100vh;
+	display:flex;
+	overflow:hidden;
+	
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+h1{
+	font-weight:400;
+	font-size:60px
+}
+
+h2{
+	font-weight:400;
+	font-size:40px;
+	color: white;
+}
+code{
+	color:#e4cb58;
+	font:inherit
+}
+
+
+@font-face{
+	src:url(https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2) format("woff2");
+	font-family:Meta;
+	font-style:normal;
+	font-weight:400
+}
+.container{
+	height:100%;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	cursor: help;
+}
+.text{
+	font-weight:100;
+	font-size:25px;
+	color:#fafafa
+}
+
+a.coding {
+	text-transform: uppercase;
+	color: #171717;
+	text-decoration: none;
+	font-size: 80px;
+	color: white;
+}
+
+
+.profile-link {
+  display: inline-block;
+  padding: 1em;
+  width: 10em;
+  max-width: 80%;
+  cursor: pointer;
+}
+.profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: #222 0.2em 0.2em 1em;
+  cursor: pointer;
+}
+
+.profile-link:hover .profile-pic, 
+.profile-link:focus .profile-pic {
+  box-shadow: 0.2em 0.2em 0.6em 0.1em;
+}
