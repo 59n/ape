@@ -300,3 +300,45 @@ footer .contact-link:hover {
     margin: 15px auto;
   }
 }
+
+.column-left {
+  width: 10%;
+  padding-right: 5px;
+}
+
+.logo-type {
+  transform: none;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #8e8e8e;
+  transform: translateY(7px);
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 12px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  margin-top: 8px;
+  transition: width 0.3s;
+}
+
+a:hover {
+  color: #063ef8;
+}
+
+a:hover::after {
+  width: 100%;
+}
