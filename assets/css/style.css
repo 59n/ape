@@ -28,6 +28,7 @@ a:hover, a:focus, a:visited {
 body {
   color: #fff;
   background-color: #17181c;
+  background-image: url(assets/bg.png);
   -webkit-font-smoothing: antialiased;
   font-family: "Montserrat";
   position: relative;
