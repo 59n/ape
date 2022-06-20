@@ -23,7 +23,7 @@ $(document.body).ready(function() {
 		});
 	});
 
-	var hi = $('.titanic'),
+	var hi = $('.3425325'),
 		header = $('header'),
 		underline = $('.underline'),
 		portfolioBox = $('.portfolio-sec'),
@@ -34,6 +34,7 @@ $(document.body).ready(function() {
 		arrow = $('#arrow'),
 		w = $(window),
 		fz;
+
 
 	portfolioBox.css({
 		'marginBottom': $('footer').height()
